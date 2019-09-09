@@ -59,10 +59,8 @@ public class Lesson_5_2 {
         float[] a2 = new float[h];
 
         System.out.println(" i'm  here: " );
-
         long startTime = System.currentTimeMillis();
-
-
+        
         System.arraycopy(arr, 0, a1, 0, h);
         System.arraycopy(arr, h, a2, 0, h);
 
